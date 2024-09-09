@@ -1,0 +1,67 @@
+show = true
+
+[number]
+	x = 529
+	y = 92
+	#Range: 0.0 ~ 10.0
+	scale = 2.0
+	#Range: 0.0 ~ 1.0
+	opacity = 1.0
+	show = true
+
+[title]
+	x = -286
+	y = 43
+	#Range: 0.0 ~ 10.0
+	scale = 3.0
+	#Range: 0.0 ~ 1.0
+	opacity = 1.0
+	show = true
+
+[combo]
+	x = -154
+	y = 73
+	#Range: 0.0 ~ 1.0
+	opacity = 1.0
+	#Range: 0.0 ~ 10.0
+	scale = 2.0
+	show = true
+
+[damage_list]
+	x = -39
+	y = 74
+	#Range: 0.0 ~ 1.0
+	opacity = 1.0
+	#Range: 0.0 ~ 10.0
+	scale = 0.800000011920929
+	max_size = 100
+	show = true
+
+[damage_rank]
+	#Use damage ranked style
+	enable = true
+	#Use format like "<damage amount>|<rank name>|<render color>"
+	option = ["0|D|16777215", "20|C|15138811", "50|B|12249087", "100|A|12248631", "200|S|16774502", "400|SS|16759702", "800|SSS|16753566"]
+
+	[damage_rank.color]
+		#Color the damage number
+		number = true
+		#Color the title
+		title = true
+		#Color the title
+		combo = true
+
+[combo_rank]
+	#Use combo ranked style
+	enable = true
+	#Use format like "<combo>|<rank name>|<render color>"
+	option = ["0|          Deadly!|12111564", "15|         Carnage!|1014735", "25|           Brutal!|13801496", "50|            Atomic!|13321492", "75|           Smokin'!|13440541", "100|     Smokin'Style!!|13440541", "200|Smokin'SickStyle!!!|13440541"]
+
+	[combo_rank.color]
+		#Color the damage number
+		number = true
+		#Color the title
+		title = true
+		#Color the combo
+		combo = true
+
